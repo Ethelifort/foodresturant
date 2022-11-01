@@ -4,8 +4,10 @@ body{
 
 
 .home>img{
-    margin-top:0;
+    margin-top:0px;
     width: 100%;
+    position: relative;
+
 
 } 
 .About-us>.pie{
@@ -75,6 +77,49 @@ div>ul>li{
     display: flex;
     justify-content: center;    
   }
-
 /*
+Navbar
 */
+
+.topnav{
+    position:absolute;
+    z-index: 1;
+    margin: 20px;
+    
+}
+
+.topnav>a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+#home{
+    display:flex;
+    justify-content: left;
+}
+
+/*Magnifying glass and shopping cart*/
+
+.topnav>a>img{
+
+    height: 25px;
+    padding-right:10px;
+   
+} 
+/* Welcome Banner*/
+#welcome>h1{
+    padding-top: 50px;
+    margin-left: 1.8em;
+    margin-top: 5.5em;
+    margin-right: 5.5em;
+    width: 12.5em;  
+
+
+    font-size: 55px;
+    position:absolute;
+    display:flex;
+    z-index: 1;
+  
+}
