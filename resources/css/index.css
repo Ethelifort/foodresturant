@@ -5,6 +5,10 @@ body{
     margin: 0;
 }
 
+.wrapper1{
+    width:100%;
+}
+
 
 .home>img{
     margin-top:0px;
@@ -229,7 +233,6 @@ Navbar
 }
 
 .about-text button{
-    margin-left: 0em;
     font-size: 25;
     width:10em;
     height: 3em;
