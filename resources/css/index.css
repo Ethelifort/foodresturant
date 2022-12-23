@@ -344,7 +344,7 @@ justify-content: space-around;
 
  
 
-@media only screen and (max-width: 360px){
+@media only screen and (min-width: 360px){
     #welcome>h1{
         margin-left: 1.8em;
         margin-top: 5.5em;
