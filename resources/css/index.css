@@ -297,7 +297,7 @@ justify-content: space-between;
 }
 .weekend{
     display:inline-block;
-    float: right;
+    float:right;
     padding-right: 10em;
 
 }
@@ -344,7 +344,7 @@ justify-content: space-between;
 
  
 
- @media screen and (max-width: 360px) {
+ @media screen and (min-width: 315px) and (max-width: 360px) and (min-height: 640px) and (max-height: 780px){
 
     
     #welcome>h1{
@@ -403,7 +403,7 @@ justify-content: space-between;
 
     .home-img{
         
-            width :100%;
+            width: 560px;
             height: 500px;
     } 
 
@@ -439,31 +439,42 @@ justify-content: space-between;
         width:14em;
         margin-left: 27%; 
      }
+
+     .location>.column-container p{
+        display:flex;
+        justify-content: center;
+    }
+
+
+    .weekend>p{
+        display:inline;
+        justify-content: center;
+        padding-left: 1.5em;
+
+    }
+
+    .weekend>h4{
+        display:inline;
+        padding-left: 5.5em;
+        margin-bottom: 2em;
+
+    }
+    .hours{
+    }
+
     .days{
         display: flex;
         flex-direction: column;
         padding-left: 5.5em;
         float:left;
-      }
-      .days p{
-        font-size: 25px;
-
-      }
-      .weekend p{
       
-        font-size: 25px;
       }
 
       .weekend{
-        padding-right: 0;
-        padding-left: 5.5em;
-        float:left;
-      }
 
-      .location-img{
-        display:none;
-      }
+    }
+    
+    
 
 }
-
 
