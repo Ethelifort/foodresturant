@@ -440,31 +440,34 @@ justify-content: space-between;
         margin-left: 27%; 
      }
 
-     .location>.column-container p{
-        display:flex;
-        justify-content: center;
-    }
-
-
-    .weekend>p{
-        display:inline;
-        justify-content: center;
-    }
-    .hours{
-    }
-
-    .days{
+     .days{
         display: flex;
         flex-direction: column;
         padding-left: 5.5em;
         float:left;
-      
+
       }
 
-      .weekend{
-        padding-left: 5.5em;
+      .days p{
+        font-size: 25px;
 
-    }
+      }
+
+    .weekend p{
+
+        font-size: 25px;
+      }
+
+
+      .weekend{
+        padding-right: 0;
+        padding-left: 5.5em;
+        float:left;
+      }
+
+      .location-img{
+        display:none;
+      }
     
     
 
