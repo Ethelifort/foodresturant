@@ -278,7 +278,7 @@ cursor: pointer;
     justify-content: center;
 }
 .hours{
-justify-content: space-around;    
+justify-content: space-between;    
 }
 
 .days{
@@ -344,7 +344,9 @@ justify-content: space-around;
 
  
 
-@media only screen and (min-width: 360px){
+ @media screen and (min-width: 315px) and (max-width: 360px) and (min-height: 640px) and (max-height: 780px){
+
+    
     #welcome>h1{
         margin-left: 1.8em;
         margin-top: 5.5em;
@@ -430,6 +432,48 @@ justify-content: space-around;
         clear: both;
         margin-top: 150px;
     }
-    
+
+    #blog p{
+        font-size: 15px;
+        display:inline-block;
+        width:14em;
+        margin-left: 27%; 
+     }
+
+ 
+
+   
+    .hours{
+    }
+
+    .days{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5.5em;
+        float:left;
+      
+      }
+
+      .days p{
+        font-size: 25px;
+
+      }
+
+      .weekend p{
+      
+        font-size: 25px;
+      }
+
+
+      .weekend{
+        padding-right: 0;
+        padding-left: 5.5em;
+        float:left;
+      }
+
+      .location-img{
+        display:none;
+      }
 
 }
+
