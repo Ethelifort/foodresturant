@@ -483,11 +483,12 @@ justify-content: space-between;
         }
 
         .socials>ul{
-            padding-left: 50px;
+            padding-left: 10px;
+            
         }
 
         .socials>ul>li{
-            padding-right: 24px;
+            padding-left: 40px;
 
         }
         .facebook-img{
