@@ -346,18 +346,14 @@ justify-content: space-between;
 
  @media screen and (min-width: 250px) and (max-width: 500px) and (min-height: 570px) and (max-height: 800px){
 
-    
-    #welcome>h1{
-        margin-left: 1.8em;
-        margin-top: 5.5em;
-        margin-right: 5.5em;
-    
-    
-        font-size: 25px;
-        display:flex;
-        z-index: 1;
-      
+    #welcome h1{
+            
+        font-size: 27.5px;
+        margin-left: 0.4em;
+        padding-left: 0px;
     }
+     
+
     .about-text{
         position:absolute;
         z-index: 1;
@@ -374,10 +370,11 @@ justify-content: space-between;
 
     .search{
         margin-top: 2.1em;
-        margin-left: .3em;
+        margin-left: 0.3em;
         width: 5.5em;
 
     }
+   
 
     .socials{
         padding-top: 0px;
@@ -472,20 +469,13 @@ justify-content: space-between;
         display:none;
       }
 
-
       .topnav a{
-
         font-size: 17px;
     }
 
-
-        #welcome h1{
-            font-size: 30px;
-            margin-left: 0.7em;
-        }
-
         .socials{
-           width: 20em;
+           display: flex;
+           justify-content: space-between;
            margin-left: 0;
            padding-left: 0;
            margin-top: 12.5em;
@@ -493,20 +483,35 @@ justify-content: space-between;
         }
 
         .socials>ul{
-            padding-left: 16px;
+            padding-left: 30px;
         }
 
         .socials>ul>li{
-            padding-right: 40px;
+            padding-right: 30px;
 
+        }
+        .facebook-img{
+            padding-right:0px;
         }
 
         .socials>ul>li>img{
            margin: 0;
         }
         .dropbtn{
-            width:230px;
+            width:250px;
+            margin-right: 0;
+            padding-right: 0;
             font-size: 15px;
+        }
+
+
+        .magnifiedglass {
+            display:none;
+        }
+
+
+        .column-container>img{
+            margin-left: 44%;
         }
         
       /* Query for samsung devices end here.*/
