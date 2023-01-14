@@ -29,7 +29,7 @@ Simple static HTML site with CSS.
 
 ### Links
 
-- [Code Source](https://github.com/Ethelifort/foodresturant/tree/main/resources)
+- [Code Source](https://liquid-junction.netlify.app)
 
 ## Our process
 
