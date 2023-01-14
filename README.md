@@ -29,7 +29,7 @@ Simple static HTML site with CSS.
 
 ### Links
 
-- [Code Source](https://liquid-junction.netlify.app)
+- [Code Source](https://temptingcuisine.netlify.app)
 
 ## Our process
 
